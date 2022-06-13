@@ -1,0 +1,120 @@
+/* small laptops and big ipads in landscape mode e.g next-hub and next-hub max */
+@media only screen and (max-width:1200px) {
+.header-text{
+	width: 70%;
+}
+.row{
+	padding: 0 3%;
+}
+
+}
+
+/* ipads and ipads in landscape mode e.g ipad air and ipad mini in landscape mode */
+@media only screen and (max-width:1024px) {
+body{
+	font-size: 18px;
+}
+section{
+	padding: 60px 0;
+}
+.long-copy {
+	width: 80%;
+	margin: 30px auto;
+}
+.app-screen{
+	width: 60%;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+.download-button {
+	height: 40px;
+	padding-right: 15px
+}
+.step-box:first-child{
+	text-align:center;
+}
+.city-feautue{
+	font-size: 90%;
+}
+.fa-solid,.fa-brands{
+	width: 0px;
+	margin: 5px 5px 5px 0
+}
+.price {
+font-size: 90%;
+}
+}
+
+/* small tablets and iphones  e.g iphone and ipad mini it has 768px*/
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 180%;
+	}
+	h2{
+		font-size: 150%;
+	}
+body{
+	text-align: center;
+	font-size: 16px;
+}
+section{
+	padding: 30px 0;
+}
+.row {
+	padding: 0 4%;
+}
+
+.long-copy{
+		width: 100%
+}
+
+.main-nav{
+	position: absolute;
+	display: grid;
+	left: 180px;
+	top: 30px;
+	display: none;
+
+}
+.usage-text{
+	margin-bottom: 30px;
+}
+.app-screen{
+	margin-top: 10px;
+}
+.usage-text div {
+	width: 40px;
+	height: 40px;
+}
+.usage-text:first-child{
+	margin-top: 20px;
+}
+.app-screen{
+	width: 40%;
+}
+
+h2 {
+		letter-spacing: 1px;
+		word-spacing: 2px;
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 15px;
+}
+.row h2:after {
+	margin: 30px auto 27px auto ;
+	color:#e67e22;
+	background-color: #e67e22;
+
+}
+.col{
+	margin: 0 0 4% 0;
+	width: 100%;
+}
+.pricing-price{
+	text-align: center;
+}
+.price{
+	text-align: justify;
+}
+
+}
